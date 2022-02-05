@@ -3,13 +3,23 @@
 Docker image based on rust:debian for audio casting.
 
 Using : 
-- snapcast
-- librespot
-- mopidy
+- [snapcast](https://github.com/badaix/snapcast)
+- [librespot](https://github.com/librespot-org/librespot)
+- [mopidy](https://github.com/mopidy/mopidy)
+- [mopidy-mpd](https://github.com/mopidy/mopidy-mpd)
+- [mopidy-spotify](https://github.com/mopidy/mopidy-spotify)
+- [mopidy-musicbox-webclient](https://github.com/pimusicbox/mopidy-musicbox-webclient)
 
 ## Quickstart
 
-docker-compose.yml example : 
+### Build
+
+```bash
+docker build -t audiocast:latest .
+```
+
+### Docker compose example
+
 ```yaml
 version: '3'
 
